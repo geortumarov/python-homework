@@ -2,7 +2,7 @@ import requests
 
 
 class YouGileAPI:
-    BASE_URL = "https://yougile.com/api-v2"
+    BASE_URL = "https://yougile.com"
 
     def __init__(self, token):
         self.headers = {"Authorization": f"Bearer {token}"}
